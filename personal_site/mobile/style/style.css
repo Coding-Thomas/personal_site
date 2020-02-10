@@ -1,0 +1,127 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 575;
+}
+
+a {
+    text-decoration: none;
+    color:#FEFFFF;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #58CCED;
+}
+
+.navbar {
+    text-transform: uppercase;
+    background-color: #474747;
+}
+
+.jumbotron {
+    background: url("../images/Thomas_Pel.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 30%;
+    padding-bottom: 20%;
+  }
+
+  .jumbotron h2,h3 {
+      text-align: right;
+      text-transform: uppercase;
+      font-size: 1.9rem;
+      margin-bottom: -1rem;
+      color: #FFFFFF98; 
+  }
+  .jumbotron h3 {
+      font-size: 1.4rem;
+      margin-bottom: -.4rem;
+  }
+
+  .btn {
+      border-radius: 0;
+      border-width: medium;
+      text-transform: uppercase;
+      padding: .5rem 1.1rem;
+      font-size: .9rem;
+  }
+
+  .caption {
+      padding-right: 2.7rem;
+  }
+
+  .navbar-text {
+      font-size: .9rem;
+  }
+
+  .display-5 {
+      color: #474747;
+      padding-bottom: 2rem;
+  }
+
+  #freelance {
+      background-color: #FFFFFF80;
+  }
+
+  .card-body {
+    background-color: #474747;
+    color: #FFFFFF80;
+  }
+
+  .card-body li {
+      list-style-type: none;
+  }
+
+  .card-fedev {
+      background-color: #FFFFFF80;
+      color: #474747;
+  }
+  
+  .fa-star {
+      color: #474747;
+  }
+
+  .list-lang {
+      display:inline-block;
+      text-align: right;
+  }
+
+  .hire-list {
+      color: #FEFFFF;
+  }
+
+
+  .checked {
+      color: #FFFFFF98;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .jumbotron h2,h3 {
+        display: none;
+    }
+}
+
+.footer {
+    background-color: #474747;
+}
+
+.footer li {
+    list-style: none;
+    color:#FFF
+    }
+
+.list-footer li {
+    display: inline-block;
+}
+
+.list-footer li .fa {
+    font-size: 2.5em;
+    padding: 15px;
+    padding-bottom: 0px;
+    color: #FEFFFF;
+}
+
+.list-info li {
+    padding: 5px;
+}
+
